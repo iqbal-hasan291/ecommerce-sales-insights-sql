@@ -9,77 +9,21 @@ Businesses often collect large amounts of transactional data but struggle to tur
 - Answer key business questions (sales, marketing, customer behavior)  
 - Build dashboards that help decision-makers act faster
 
-##  Levels & Key Questions 
+## 📊 Level-wise Findings  
 
- **Level 1:** Revenue & Basic Transaction Metrics
-
-1️⃣ Calculate total invoice amount for each transaction.
-
-2️⃣ Find the top 10 transactions with the highest invoice value.
-
-3️⃣ Calculate total revenue for each product category.
-
-4️⃣ List the total number of transactions and total quantity sold for each month.
-
-5️⃣ Find the average order value (AOV) for each customer.
-
- **Level 2:** Customer Acquisition & Retention
-
-6️⃣ How many new customers were acquired each month?
-
-7️⃣ Show month-on-month retention: How many customers from each cohort month purchased again in future months?
-
-8️⃣ Which month had the highest repeat rate?
-
-9️⃣ What is the churn rate month by month?
-
-10️⃣ Which customers have made only one purchase in 2019?
-
- **Level 3:** Discount & Coupon Impact
-
-1️⃣1️⃣ How many transactions used a coupon?
-
-1️⃣2️⃣ Calculate total discount amount given for each category.
-
-1️⃣3️⃣ Compare average revenue per transaction for transactions with and without coupon applied.
-
- **Level 4:** Sales Trends & Seasonality
-
-1️⃣4️⃣ Show daily revenue trend across the year.
-
-1️⃣5️⃣ Which day of the week has the highest sales?
-
-1️⃣6️⃣ Which location generates the most revenue?
-
-1️⃣7️⃣ Which product category shows strong seasonality?
-
-**Level 5:** Marketing Effectiveness
-
-1️⃣8️⃣ Calculate total revenue, total marketing spend, and marketing spend as % of revenue by month.
-
-1️⃣9️⃣ Is there a correlation between marketing spend and revenue growth? (Prepare the data for visualization)
-
-2️⃣0️⃣ Which marketing channel (online/offline) spends more?
-
- **Level 6:** Customer Segmentation
-
-2️⃣1️⃣ Calculate RFM values for each customer:
-
-2️⃣2️⃣ Segment customers as Premium, Gold, Silver, Standard based on RFM percentiles.
-
- **Level 7:** Predictive Prep
-
-2️⃣4️⃣ Calculate average days between purchases for repeat customers.
-
-2️⃣5️⃣ Assign customers to next purchase group (0–30 days, 30–60 days, 60–90 days, 90+ days).
-
- **Level 8:** Cohort Analysis
-
-2️⃣6️⃣ Create cohorts by month of first purchase.
-
-2️⃣7️⃣ Show retention matrix: % of cohort retained in following months.
-
-2️⃣8️⃣ Which cohort has the highest lifetime revenue?
+| Level | Focus Area | Key Findings |
+|-------|------------|--------------|
+| **Level 1 – Basic KPIs** | Total revenue, orders, customers | Revenue **4.71 M**, Orders **25,061**, Quantity Sold **238 K**, AOV **188.2**, Customers **1,468** |
+| **Level 2 – Coupons & Discounts** | Coupon usage, discounts | **25,065** purchases used a coupon; **Nest-USA** had the highest total discount amount |
+| **Level 3 – Product & Location Performance** | Top products, top revenue | Highest product revenue: **Nest – USA** |
+| **Level 4 – Monthly Trends** | Transactions & quantity by month | Total transactions peaked in **December**, total quantity sold peaked in **August** |
+| **Level 5 – Customer Insights** | High AOV customers | Customer **12935** had the highest AOV: **4,506** |
+| **Level 6 – RFM Segmentation** | Premium vs. Gold vs. Silver vs. Standard | Customers segmented into **Premium, Gold, Silver, Standard** tiers |
+| **Level 7 – Cohort Analysis** | Repeat customers & retention | **August** had the highest number of repeat customers; **November** had the highest repeat rate |
+| **Level 8 – Marketing Analysis** | Spend & impact | **December** had the highest marketing spend; **June** had the highest marketing impact on revenue |
+| **Level 9 – Channels** | Channel comparison | **Offline** sales generated the most revenue |
+| **Sales Trends** | Day-of-week sales | **Friday** had the highest sales volume |
+| **Location Analysis** | Top revenue location | **Chicago** generated the highest revenue |
 
 ##  Tools and Technology Used
 - **SQL (MySQL)** – Data cleaning, transformations, and answering business questions  
