@@ -1,24 +1,24 @@
 # 🛒 E-Commerce Sales Analysis (SQL + Power BI)
 
-## 📌 Project Overview
+##  Project Overview
 This project is a complete end-to-end analysis of an e-commerce dataset.  
-Using SQL and Power BI, I explored customer behavior, marketing impact, sales trends, and cohort retention.  
-It covers **9 levels** of progressively advanced business questions — from basic KPIs to RFM segmentation and cohort analysis — to provide actionable insights.
+Using SQL and Power BI, I explored customer behavior, marketing impact, sales trends, and cohort retention, rfm segmentation.  
+It covers **8 levels** of progressively advanced business questions — from basic KPIs to RFM segmentation and cohort analysis — to provide actionable insights.
 
-## 🎯 Problem Statement
+##  Problem Statement
 Businesses often collect large amounts of transactional data but struggle to turn it into insights.  
 This project demonstrates how to:
 - Clean and model raw transactional data  
 - Answer key business questions (sales, marketing, customer behavior)  
 - Build dashboards that help decision-makers act faster  
 
-## 🛠️ Tools Used
+##  Tools and Technology Used
 - **SQL (MySQL)** – Data cleaning, transformations, and answering business questions  
 - **Power BI** – Interactive dashboards and visualizations  
 - **Excel** – Quick checks and initial exploration  
-- **GitHub** – Version control and project sharing  
 
-## 🗂️ Workflow / Story
+
+##  Workflow 
 I divided the analysis into multiple levels to mirror real-world problem solving:
 1. **Level 1–3:** Basic KPIs, coupons, discounts, and sales trends  
 2. **Level 4–6:** Marketing spend analysis, RFM segmentation, and cross-sell patterns  
