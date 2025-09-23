@@ -13,10 +13,11 @@ Businesses often collect large amounts of transactional data but struggle to tur
 
 | Level | Focus Area | Key Findings |
 |-------|------------|--------------|
-| **Level 1 – Basic KPIs** | Total revenue, orders, customers | Revenue **4.71 M**, Orders **25,061**, Quantity Sold **238 K**, AOV **188.2**, Customers **1,468** |
-| **Level 2 – Coupons & Discounts** | Coupon usage, discounts | **25,065** purchases used a coupon; **Nest-USA** had the highest total discount amount |
-| **Level 3 – Product & Location Performance** | Top products, top revenue | Highest product revenue: **Nest – USA** |
-| **Level 4 – Monthly Trends** | Transactions & quantity by month | Total transactions peaked in **December**, total quantity sold peaked in **August** |
+| ** Basic KPIs** | Total revenue, orders, customers | Revenue **4.71 M**, Orders **25,061**, Quantity Sold **238 K**, AOV **188.2**, Customers **1,468** |
+| **Level 1 – LEVEL 1: Revenue & Basic Transaction Metrics** | Total revenue, orders, customers, Product | Highest product revenue: **Nest – USA**,Total transactions peaked in **December**, total quantity sold peaked in **August**   |
+| **Level 2: Customer Acquisition & Retention** | Coupon usage, discounts | **25,065** purchases used a coupon; **Nest-USA** had the highest total discount amount |
+| **Level 3 – Product & Location Performance** | Top products, top revenue | |
+| **Level 4 – Monthly Trends** | Transactions & quantity by month | |
 | **Level 5 – Customer Insights** | High AOV customers | Customer **12935** had the highest AOV: **4,506** |
 | **Level 6 – RFM Segmentation** | Premium vs. Gold vs. Silver vs. Standard | Customers segmented into **Premium, Gold, Silver, Standard** tiers |
 | **Level 7 – Cohort Analysis** | Repeat customers & retention | **August** had the highest number of repeat customers; **November** had the highest repeat rate |
