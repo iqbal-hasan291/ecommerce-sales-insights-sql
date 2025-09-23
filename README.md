@@ -9,22 +9,6 @@ Businesses often collect large amounts of transactional data but struggle to tur
 - Answer key business questions (sales, marketing, customer behavior)  
 - Build dashboards that help decision-makers act faster
 
-## 📊 Level-wise Findings  
-
-| Level | Focus Area | Key Findings |
-|-------|------------|--------------|
-| ** Basic KPIs** | Total revenue, orders, customers | Revenue **4.71 M**, Orders **25,061**, Quantity Sold **238 K**, AOV **188.2**, Customers **1,468** |
-| **Level 1 – LEVEL 1: Revenue & Basic Transaction Metrics** | Total revenue, orders, customers, Product | Highest product revenue: **Nest – USA**,Total transactions peaked in **December**, total quantity sold peaked in **August**   |
-| **Level 2: Customer Acquisition & Retention** | Coupon usage, discounts | **25,065** purchases used a coupon; **Nest-USA** had the highest total discount amount |
-| **Level 3 – Product & Location Performance** | Top products, top revenue | |
-| **Level 4 – Monthly Trends** | Transactions & quantity by month | |
-| **Level 5 – Customer Insights** | High AOV customers | Customer **12935** had the highest AOV: **4,506** |
-| **Level 6 – RFM Segmentation** | Premium vs. Gold vs. Silver vs. Standard | Customers segmented into **Premium, Gold, Silver, Standard** tiers |
-| **Level 7 – Cohort Analysis** | Repeat customers & retention | **August** had the highest number of repeat customers; **November** had the highest repeat rate |
-| **Level 8 – Marketing Analysis** | Spend & impact | **December** had the highest marketing spend; **June** had the highest marketing impact on revenue |
-| **Level 9 – Channels** | Channel comparison | **Offline** sales generated the most revenue |
-| **Sales Trends** | Day-of-week sales | **Friday** had the highest sales volume |
-| **Location Analysis** | Top revenue location | **Chicago** generated the highest revenue |
 
 ##  Tools and Technology Used
 - **SQL (MySQL)** – Data cleaning, transformations, and answering business questions  
@@ -47,6 +31,20 @@ Each level builds on the previous one — similar to how analysts iterate in a r
 - Translating SQL results into clear, impactful visuals  
 
 I overcame these by writing modular SQL scripts and validating each step with sample outputs.
+
+## 📊 Level-wise Findings  
+
+| Level | Focus Area | Key Findings |
+|-------|------------|--------------|
+| **Basic KPIs** | Total revenue, orders, customers | Revenue **4.71 M**, Orders **25,061**, Quantity Sold **238 K**, AOV **188.2**, Customers **1,468** |
+| **Level 1 – Revenue & Basic Transaction Metrics** | Revenue, Orders, Products | Highest product revenue: **Nest – USA**; Total transactions peaked in **December**; Total quantity sold peaked in **August** |
+| **Level 2 – Customer Acquisition & Retention** | New Customers, Retention, Retention Rate (%) | **August** had the highest repeat customers; **November** had the highest repeat rate |
+| **Level 3 – Discount & Coupon Impact** | Coupon usage, Discount impact | **25,065** purchases used a coupon; **Nest-USA** had the highest total discount amount |
+| **Level 4 – Sales Trends & Seasonality** | Monthly & Weekly Trends, Day-of-Week Sales, Location | **Friday** had the highest sales volume; **Chicago** generated the highest revenue |
+| **Level 5 – Marketing Effectiveness** | Coupon impact, Discount impact | **December** had the highest marketing spend; **June** had the highest marketing impact on revenue; **Offline** sales generated the most revenue |
+| **Level 6 – RFM Segmentation** | Premium, Gold, Silver, Standard | Customers segmented into **Premium, Gold, Silver, Standard** tiers |
+| **Level 8 – Predictive Prep** | Average Days Between Purchases | Calculated average days between purchases and total orders for each customer |
+| **Level 9 – Cohort Analysis** | Cohort Month, Retention, Churn (%) | Built cohorts by first purchase month; Calculated retention % and churn % over time |
 
 
 ##  Insights
