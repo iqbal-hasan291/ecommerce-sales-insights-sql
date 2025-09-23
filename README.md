@@ -1,70 +1,61 @@
-# ecommerce-sales-insights-sql
+# 🛒 E-Commerce Sales Analysis (SQL + Power BI)
 
-📝 Overview
+## 📌 Project Overview
+This project is a complete end-to-end analysis of an e-commerce dataset.  
+Using SQL and Power BI, I explored customer behavior, marketing impact, sales trends, and cohort retention.  
+It covers **9 levels** of progressively advanced business questions — from basic KPIs to RFM segmentation and cohort analysis — to provide actionable insights.
 
-I analysed a full year of e-commerce transaction data (Jan–Dec 2019) to understand sales performance, customer behaviour, marketing impact, and retention trends.
-Using SQL, I calculated KPIs, built cohorts, segmented customers, and generated actionable insights for business decisions.
+## 🎯 Problem Statement
+Businesses often collect large amounts of transactional data but struggle to turn it into insights.  
+This project demonstrates how to:
+- Clean and model raw transactional data  
+- Answer key business questions (sales, marketing, customer behavior)  
+- Build dashboards that help decision-makers act faster  
 
-This project simulates the kind of analysis a real e-commerce analytics team would deliver.
+## 🛠️ Tools Used
+- **SQL (MySQL)** – Data cleaning, transformations, and answering business questions  
+- **Power BI** – Interactive dashboards and visualizations  
+- **Excel** – Quick checks and initial exploration  
+- **GitHub** – Version control and project sharing  
 
-🛠️ Tools Used
+## 🗂️ Workflow / Story
+I divided the analysis into multiple levels to mirror real-world problem solving:
+1. **Level 1–3:** Basic KPIs, coupons, discounts, and sales trends  
+2. **Level 4–6:** Marketing spend analysis, RFM segmentation, and cross-sell patterns  
+3. **Level 7–9:** Cohort analysis, retention matrix, lifetime value and insights  
 
-MySQL – data cleaning, transformations, calculations
+Each level builds on the previous one — similar to how analysts iterate in a real job.
 
-CTEs & Views – to modularise complex queries
+### ⚡ Challenges Faced
+- Cleaning inconsistent dates and coupon codes  
+- Joining multiple tables (sales, discount, tax, marketing)  
+- Building correct cohort/retention logic  
+- Translating SQL results into clear, impactful visuals  
 
-Power BI/Excel (optional) – for charts & dashboards
+I overcame these by writing modular SQL scripts and validating each step with sample outputs.
 
-GitHub – version control and sharing
+## 📑 Levels & Key Questions (Summary)
+| Level | Focus Area | Sample Questions Solved |
+|-------|------------|-------------------------|
+| 1 | Basic KPIs | Total transactions, new customers per month |
+| 2 | Coupons & Discounts | How many transactions used a coupon? Total discount per category |
+| 3 | Sales Trends | Daily revenue trend, highest-sales weekday, top locations |
+| 4 | Marketing | Revenue vs marketing spend by month, channel comparison |
+| 5 | RFM Analysis | Recency, Frequency, Monetary per customer + Segmentation |
+| 6 | Cross-Sell | Which products are frequently bought together |
+| 7 | Cohort Analysis | Create cohorts, retention matrix, highest lifetime revenue |
+| 8 | Economic Loss | Month with highest economic loss per year |
+| 9 | Insights & Conclusion | Overall performance and recommendations |
 
-📜 Workflow (my story)
+## 📊 Insights
+- **Revenue grew steadily** in Q3 with a peak on weekends  
+- **Marketing spend** on online channels produced higher ROI than offline  
+- **Premium customers (RFM)** generated 3x the revenue of Standard customers  
+- **Cohort retention** improved after targeted discounts were introduced  
+- **Cross-sell**: Products A and B are most frequently bought together  
 
-Data Understanding
+## 📝 Conclusion
+This project shows how raw transactional data can be turned into actionable business insights using SQL and Power BI.  
+It also demonstrates a repeatable workflow for analyzing any retail/e-commerce dataset.
 
-Transaction data (orders, prices, delivery charges)
-
-Customer data (gender, location, tenure)
-
-Discount coupons, marketing spend, tax rates
-
-Data Preparation
-
-Fixed date formats, handled nulls, joined multiple tables
-
-Created reusable invoice_calc view to calculate invoice value correctly
-
-Analysis Levels
-
-Level 1–3: Revenue, top transactions, monthly orders, new customers
-
-Level 4: Trends & seasonality – daily revenue, day of week, location, seasonal categories
-
-Level 5: Marketing impact – spend vs revenue, spend % of revenue
-
-Level 6: RFM analysis & segmentation into Premium, Gold, Silver, Standard
-
-Level 7: Cross-sell – product pairs for market basket analysis
-
-Level 8: Customer behaviour – average days between purchases, next purchase group prediction
-
-Level 9: Cohort analysis – retention matrix, lifetime revenue per cohort
-
-Challenges
-
-Cleaning inconsistent date formats (%m/%d/%Y vs %b)
-
-Handling missing discounts and GST values
-
-Creating retention and churn logic correctly
-
-Sorting months chronologically while keeping names readable
-
-Solutions
-
-Used STR_TO_DATE and DATE_FORMAT to normalise dates
-
-Used COALESCE to handle null discounts/GST
-
-Created views (invoice_calc, customer_cohort) for reusability
-
-Used CTEs for complex calculations (RFM, churn, retention matrix)
+## 📂 Repository Structure
