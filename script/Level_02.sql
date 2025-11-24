@@ -1,5 +1,5 @@
 -- -----------------------------------------------------------
--- 🗂️ Level 2: Customer Acquisition & Retention
+-- Level 2: Customer Acquisition & Retention
 -- -----------------------------------------------------------
 
 -- 6️. Find how many new customers were acquired each month.
